@@ -37,7 +37,7 @@ If you're reading this on notepad, i recommend enabling Word Wrap ( Format > Wor
 
                                              
                                                                                         
-How to make Sega Rally 2 work on modern PC systems (win 10/11) (Created by SpadeTheSkeleton - August 9th 2024)
+How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) (Created by SpadeTheSkeleton - August 9th 2024)
 
 
                                                                                                                                                            
