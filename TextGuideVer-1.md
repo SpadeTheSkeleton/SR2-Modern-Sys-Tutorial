@@ -40,10 +40,9 @@ If you're reading this on notepad, i recommend enabling Word Wrap ( Format > Wor
 How to make Sega Rally 2 work on modern PC systems (win 10/11) (Created by SpadeTheSkeleton - August 9th 2024)
 
 
- 
-
-                                                                                   PLEASE READ THIS BEFORE CONTINUING WITH THIS GUIDE
-                                                                                       -------------------------------------------
+                                                                                                                                                           
+PLEASE READ THIS BEFORE CONTINUING WITH THE GUIDE!
+-----------------------------------------------------
 
 
 This guide may not work for you due to how old the game is and how inconsistent things can be depending on how your system is. Try this method at your own risk and please read everything before attempting, a single mistake could mess up your own device.
@@ -51,11 +50,10 @@ This guide may not work for you due to how old the game is and how inconsistent 
 My guide was constructed under the methods that worked for me, please note that some information may be incorrect due to this being my first time trying to make a 1999 game work on modern systems. If none of the steps in this guide does work for you, I put down below this all the known methods of getting this game. The Alcino Major's Portable builds & a Spanish guide that goes very in-depth. 
 
 
-
 I would highly suggest to open up a text document while you're following the guide and write down which build of the game that you used, which settings you have changed, which OS you were on and any details you can tell. The more information that we can get to have more people to play this game, the better.
 
 
-If you do that or interested to join a discord server about everything Sega rally : https://discord.gg/Pn7KX5NG ( Sega Rally Series Discord Hosted by Over Jump Rally )
+If you're willing to help to make this game more accessible or interested to join a discord server about everything Sega rally : https://discord.gg/Pn7KX5NG ( Sega Rally Series Discord Hosted by Over Jump Rally )
 
 
 Internet Archive (Old Portable) : https://archive.org/details/segarally2_portable
@@ -67,11 +65,30 @@ Sega Rally 2 Speed running Discord (Portable) : https://drive.google.com/drive/f
 In-dept Spanish Guide (Translated in English through Google Translate) : https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp
 
 
-
 This text document purpose is to be shared around with players who love this game but always struggled to get this game running. You are free to edit this guide if new information or new builds has been developed. If done so, please add additional notes that the edit you have added was made by you. Once this document has been completed, this guide will be supported as long that i can with proper information and new methods.
 
 
+-- KNOWN FIXES (So far) --
 
+If anything listed below you have issues with, please come back to this! 
+
+
+- The device settings won't appear! -
+
+First step will be try to run LAUNCER.exe under compatibility mode for windows xp or vista service pack 2, ( right click LAUNCHER.EXE > Properties )  if that doesn't work. Under "Change high DPI settings" click the ☑ for "override high DPI scaling behavior" and make sure that its under "Application"
+
+
+
+- The game won't appear! -
+
+Read above to change DPI settings!
+
+
+
+This guide covers a lot of fixes for this game, https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp  I highly recommend it!
+
+
+As a last ditch effort, you could try https://sourceforge.net/projects/dxwnd/ A software that helps win32 software like Sega Rally 2 :]
 
 
 ~~ Chapter 1 ~~
@@ -92,19 +109,17 @@ Download • SEGARally2Championship-Eng-PlayDisc.bin & SEGARally2Championship-En
 
 
 
-Next, we're getting a program that creates a virtual CD drive, i will be using DAEMON Tools (You can also use WinCDEmu if you prefer) • https://www.daemon-tools.cc/products/dtLite#page • • https://wincdemu.sysprogs.org/download/ •
+Next, we're getting a program that creates a virtual CD drive, i will be using DAEMON Tools (You can also use WinCDEmu if you prefer) • https://www.daemon-tools.cc/products/dtLite#page •  • https://wincdemu.sysprogs.org/download/ •
 
 
 
 Press the DOWNLOAD button that's in a white box (free with ads), open the exe and install it. This process should be easy enough.
 
-
-WARNING : As it tends with free software, it tries to bundle itself with a crappy VPN service. Please DO NOT mindlessly press next while setting up, once you see the menu to download the VPN. Skip it.
+# WARNING : As it tends with free software, it tries to bundle itself with a crappy VPN service. Please DO NOT mindlessly press next while setting up, once you see the menu to download the VPN. Skip it.
 
 
 
 Once DAEMON tools is done installing, the ultimate step to make this work is that we need to create a folder onto your C: drive to put the game in. Open up file explorer and follow this closely, This PC > Windows Hard Drive (C:) > Right click > New > Folder > Name it to "Sega Rally 2" or to whichever you prefer.
-
 
 Note : I have installed this onto my C: drive since it has worked for me, installing it onto another drive may work but I wasn't able to confirm this. Try it at your own risk.
 
@@ -123,7 +138,9 @@ Now, go onto file explorer then • This PC • and you should see a sega rally 
  
 
 
-Congrats, this is the first step of many. Hopefully it worked so far! If not, do try another virtual CD software. Remove the mounted CD, and uninstall DAEMON tools. Do try with WinCDEmu instead ( https://wincdemu.sysprogs.org/download/ ) 
+Congrats, this is the first step of many. Hopefully it worked so far! If not, you do got a few options. You could reject the CD and try it again or try another virtual CD software. Remove the mounted CD, and uninstall DAEMON tools. Do try with WinCDEmu instead • https://wincdemu.sysprogs.org/download/ • 
+
+One solution was to restart your computer, or you could go inside of the CD itself and run the setup.exe  If you do have a solution to this, please let me know!
 
 
 
@@ -155,8 +172,7 @@ Due to how old this game is, the game's video settings aren't the greatest. So w
 
 
 
-Go onto • https://rockraidersunited.com/files/general-tools/dgvoodoo-2554-r52/ • and click on the "Download File" button. This is a reupload of this version of dgVoodoo since the official website hasn't worked in awhile.
-
+Go onto • https://rockraidersunited.com/files/general-tools/dgvoodoo-2554-r52/ • and click on the "Download File" button. This is a reupload of this version of an old dgVoodoo version since the official website hasn't worked in awhile BUT you are also free to try the newest version of it, if the old version doesn't work out for you!
 
 Official github : https://github.com/dege-diosg/dgVoodoo2/releases 
 Official website : https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/
@@ -239,19 +255,19 @@ You should get a • Sega-Rally-2-Championship_Patch_Win_EN.zip • and you'll s
 
 Double click on • MUSASHI • in the zip folder, then drag • MGAudio.dll • into the SAME FOLDER as Sega Rally 2. It will ask if you want to replace it, click on the first top option to replace the old one.
 
+
+There is another method to this! • https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp • and look for "Music recovery patch"
+
+
 And it's now fixed! One last step! :D
 
 
 
 ✰✰ DEVICE SETTINGS/CONTROLLER SETUP ✰✰
 
-As for this, it's very simple. Right click • LAUNCH.exe • then go to properties. Compatibility > Click on the box for • Run this program in compatibility mode • > Win 95 > Apply > Ok
+As for this, it's very simple. Right click • LAUNCH.exe • then go to properties. Compatibility > Click on the box for • Run this program in compatibility mode • > Win 95 > Apply > Ok ( but you may need windows xp service pack 2 if it doesn't work )
 
-
-
-Do make sure if you do play with a controller that it's plugged BEFORE you open up the launcher. Double click • LAUNCH.exe •, press on yes if a permission menu appears. Then click on DEVICE SETTINGS. This is the part that I can't completely solve, but it might take 1 to 3 tries. Click on it, then wait 3 seconds then try again.
-
-
+Do make sure if you do play with a controller that it's plugged BEFORE you open up the launcher. Double click • LAUNCH.exe •, press on yes if a permission menu appears. Then click on DEVICE SETTINGS. This is the part that I can't completely solve, but it might take 1 to 3 tries. Click on it, then wait 3 seconds then try again until it opens. You may need to close the launcher and try again! 
 
 
 Once it popups, change your controller input device to your controller of choice. I personally got an xbox one controller and it works, but if you play with the keyboard feel free to change to your preferred settings.
@@ -313,41 +329,33 @@ AND THAT'S IT! YOU'RE DONE! IT'S TIME TO PLAY!
 
 ~~ Chapter 3 - The adventure ends here!  ~~
 
-
-If you followed everything in this guide, the game should boot up! If you selected the option to have a shortcut on the desktop, you can boot the game that way or if you want directly boot the game. Here's how to do it!
-
+From here, open the launcher then press play! With everything set and done, it should boot up! If not, change DPI settings as mentioned in the beginning or compatibility. That's the core solutions i could find so far!
 
 
-Inside of your Sega Rally 2 folder, search for • SEGA RALLY 2.exe • and create a shortcut ( right click the exe > create shortcut ) and drag the shortcut onto your desktop. And that's it! You're done :]
-
-
-
-•• KEY REMINDERS! ••
+ •• KEY REMINDERS! ••
 
 For each time you want to play the game. You need to mount • SEGARally2Championship-Eng-PlayDisc.cue • through DAEMON tools, then once it's mounted. You can start playing the game. It will unmount each time you reset/close your pc, so the cd will be on at all times as long as the pc is on.
 
+I would highly recommend opening Task Manager and open up the "Startup" tab and make sure that DAEMON Tools doesn't boot when you open up windows. Click on it then disable on the bottom right.
 
 To change controller inputs, you have to do it through LAUNCH.exe then DEVICE SETTINGS.
 
-
 I WOULD RECOMMEND having the window's volume mixer opened, since the game can be very loud! Once you're in-game, go to options and change your sound settings to your liking.
 
+The game might not boot at first, try again until it works or change some settings as mentioned before!
 
-The game might not boot at first, try again until it works. Simple as that.
+To pause the game, you press the enter key (trying to find a solution to that)
 
 
-To pause the game, you press the enter key (trying to find a solution to that).
-
-Pausing will lag a smidge BUT it will work.
 
 
 
 CREDITS
 ----------------
-SpadeTheSkeleton - For starting this project and making it work! First ever...?
+SpadeTheSkeleton - For starting this project 
 Lootria - For guiding me in the right direction for the cd fix and for trying the first version
 peppercornyeen - For being with me for the first few rounds of trying to make it work
 TransCanadaLimited - For being the biggest inspiration for the rally scene and inspired me for making this work
-
+q_angell, OtterlyStoned & Corvoda - For being guide testers!
 
 
