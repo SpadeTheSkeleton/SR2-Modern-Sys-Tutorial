@@ -254,8 +254,8 @@ That's it! Of course, to change your settings again. Make sure to close your gam
 
 
 
-✰✰ CD AUDIO ✰✰
-
+•• CD AUDIO ••
+------------------ 
 To re-add CD music, it's very simple. If you haven't downloaded the PATCH from earlier, here is the link to it • https://www.myabandonware.com/game/sega-rally-2-championship-a62#download • and get PATCH
 
 You should get a • Sega-Rally-2-Championship_Patch_Win_EN.zip • and you'll see a folder inside it, open it then simply drag • _inmm.dll • onto the sega rally 2 folder.
@@ -270,8 +270,8 @@ And it's now fixed! One last step! :D
 
 
 
-✰✰ DEVICE SETTINGS/CONTROLLER SETUP ✰✰
-
+•• DEVICE SETTINGS/CONTROLLER SETUP ••
+------------------ 
 As for this, it's very simple. Right click • LAUNCH.exe • then go to properties. Compatibility > Click on the box for • Run this program in compatibility mode • > Win 95 > Apply > Ok ( but you may need windows xp service pack 2 if it doesn't work )
 
 Do make sure if you do play with a controller that it's plugged BEFORE you open up the launcher. Double click • LAUNCH.exe •, press on yes if a permission menu appears. Then click on DEVICE SETTINGS. This is the part that I can't completely solve, but it might take 1 to 3 tries. Click on it, then wait 3 seconds then try again until it opens. You may need to close the launcher and try again! 
@@ -281,38 +281,39 @@ Once it popups, change your controller input device to your controller of choice
 
 
 
-HERE IS THE LIST OF XBOX BUTTONS 
-•••••••••••••••••••••••••••••••••••••
-• Left (L Joystick)                 •
-• Right (L Joystick)                •
-•                                   •
-• Up (L Joystick)                   •
-• Down (L Joystick)                 •
-•                                   •
-• Z Axis+  Right Trigger            •
-• Z Axis-  Left Trigger             •
-•                                   •
-• X Rotation+ Left  (R Joystick)    • 
-• X Rotation- Right  (R Joystick)   • 
-•                                   •
-• Y Rotation+  Up  (R Joystick)     •
-• Y Rotation-  Down (R Joystick)    • 
-•                                   •
-•                                   • 
-• Button 0  A                       •
-• Button 1  B                       •
-• Button 2  X                       •
-• Button 3  Y                       •
-•                                   •
-• Button 4  Left Bumper             •
-• Button 5  Right Bumper            •
-•                                   •
-• Button 6  Select                  •
-• Button 7  Start                   •
-•                                   •
-• Button 8  Left Stick Button       •
-• Button 9  Right Stick Button      •
-•••••••••••••••••••••••••••••••••••••
+ HERE IS THE LIST OF XBOX BUTTONS
+ ------------------ 
++ •••••••••••••••••••••••••••••••••••••
++ • Left (L Joystick)                 •
++ • Right (L Joystick)                •
++ •                                   •
++ • Up (L Joystick)                   •
++ • Down (L Joystick)                 •
++ •                                   •
++ • Z Axis+  Right Trigger            •
++ • Z Axis-  Left Trigger             •
++ •                                   •
++ • X Rotation+ Left  (R Joystick)    • 
++ • X Rotation- Right  (R Joystick)   • 
++ •                                   •
++ • Y Rotation+  Up  (R Joystick)     •
++ • Y Rotation-  Down (R Joystick)    • 
++ •                                   •
++ •                                   • 
++ • Button 0  A                       •
++ • Button 1  B                       •
++ • Button 2  X                       •
++ • Button 3  Y                       •
++ •                                   •
++ • Button 4  Left Bumper             •
++ • Button 5  Right Bumper            •
++ •                                   •
++ • Button 6  Select                  •
++ • Button 7  Start                   •
++ •                                   •
++ • Button 8  Left Stick Button       •
++ • Button 9  Right Stick Button      •
++ •••••••••••••••••••••••••••••••••••••
 
 
 Here's what i personally set it up, 
@@ -329,12 +330,13 @@ Shift Down as B Button
 
 if you'd like to test your inputs, there's a calibration button. Click on the ones you want to test then press the button you set it up as. Once you're done testing and setting up, press on Save then Ok
 
-AND THAT'S IT! YOU'RE DONE! IT'S TIME TO PLAY! 
+**AND THAT'S IT! YOU'RE DONE! IT'S TIME TO PLAY!**
 
 
 
 
-~~ Chapter 3 - The adventure ends here!  ~~
+~ Chapter 3 - The adventure ends here! ~
+------------------ 
 
 From here, open the launcher then press play! With everything set and done, it should boot up! If not, change DPI settings as mentioned in the beginning or compatibility. That's the core solutions i could find so far!
 
@@ -359,10 +361,10 @@ To pause the game, you press the enter key (trying to find a solution to that)
 
 CREDITS
 ----------------
-SpadeTheSkeleton - For starting this project 
-Lootria - For guiding me in the right direction for the cd fix and for trying the first version
-peppercornyeen - For being with me for the first few rounds of trying to make it work
-TransCanadaLimited - For being the biggest inspiration for the rally scene and inspired me for making this work
-q_angell, OtterlyStoned & Corvoda - For being guide testers!
++ SpadeTheSkeleton - For starting this project 
++ Lootria - For guiding me in the right direction for the cd fix and for trying the first version
++ peppercornyeen - For being with me for the first few rounds of trying to make it work
++ TransCanadaLimited - For being the biggest inspiration for the rally scene and inspired me for making this work
++ q_angell, OtterlyStoned & Corvoda - For being guide testers!
 
 
