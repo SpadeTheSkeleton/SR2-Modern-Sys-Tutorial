@@ -1,4 +1,4 @@
-# SR2-Modern-Sys-Tutorial
+# SR2-Modern-Sys-Tutorial (New to GitHub Edition)
 
 (open this in full screen or zoom out to see ascii art)   
 
@@ -68,18 +68,18 @@ In-dept Spanish Guide (Translated in English through Google Translate) : https:/
 This text document purpose is to be shared around with players who love this game but always struggled to get this game running. You are free to edit this guide if new information or new builds has been developed. If done so, please add additional notes that the edit you have added was made by you. Once this document has been completed, this guide will be supported as long that i can with proper information and new methods.
 
 
--- KNOWN FIXES (So far) --
+- KNOWN FIXES (So far)
 
 If anything listed below you have issues with, please come back to this! 
 
 
-- The device settings won't appear! -
+- The device settings won't appear!
 
 First step will be try to run LAUNCER.exe under compatibility mode for windows xp or vista service pack 2, ( right click LAUNCHER.EXE > Properties )  if that doesn't work. Under "Change high DPI settings" click the ☑ for "override high DPI scaling behavior" and make sure that its under "Application"
 
 
 
-- The game won't appear! -
+- The game won't appear!
 
 Read above to change DPI settings!
 
@@ -91,7 +91,7 @@ This guide covers a lot of fixes for this game, https://oldnewpixel-blogspot-com
 As a last ditch effort, you could try https://sourceforge.net/projects/dxwnd/ A software that helps win32 software like Sega Rally 2 :]
 
 
-~~ Chapter 1 ~~
+~ Chapter 1 ~
 
 First step is that we need a few things, go onto • https://www.myabandonware.com/game/sega-rally-2-championship-a62#download •
 
@@ -158,7 +158,7 @@ Alright, the first part is now done! But, it's time to fix some things to make i
 
 
 
-~~ Chapter 2 - What a lovely mess! ~~
+~ Chapter 2 - What a lovely mess! ~
 
 
 
@@ -215,7 +215,7 @@ Miscellaneous
 ☐ Capture mouse  
 ☑ Center App window 
 
-> Apply (to save your settings)
+Apply (to save your settings)
 
 
 
@@ -231,7 +231,7 @@ Miscellaneous
 ☑ Enable Glide Gamma ramp
 Everything else is off
 
-> Apply (to save your settings)
+ Apply (to save your settings)
 
 
 
@@ -240,7 +240,7 @@ VRAM -> 128mb
 Resolution 1024x768 (feel free to mess with this at a later time)
 ☑ Force vSync
 
-> Apply (to save your settings) then okay to close
+Apply (to save your settings) then okay to close
 
 
 That's it! Of course, to change your settings again. Make sure to close your game and change any settings to your liking. Please keep note of what you have changed so you can easily go back! 
