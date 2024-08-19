@@ -53,22 +53,23 @@ My guide was constructed under the methods that worked for me, please note that 
 I would highly suggest to open up a text document while you're following the guide and write down which build of the game that you used, which settings you have changed, which OS you were on and any details you can tell. The more information that we can get to have more people to play this game, the better.
 
 
-If you're willing to help to make this game more accessible or interested to join a discord server about everything Sega rally : https://discord.gg/Pn7KX5NG ( Sega Rally Series Discord Hosted by Over Jump Rally )
+If you're willing to help to make this game more accessible or interested to join a discord server about everything Sega rally : https://discord.gg/Pn7KX5NG **( Sega Rally Series Discord Hosted by Over Jump Rally )**
 
 
-Internet Archive (Old Portable) : https://archive.org/details/segarally2_portable
++ Internet Archive (Old Portable) : https://archive.org/details/segarally2_portable
 
-myabandonware (Latest Portable) : https://www.myabandonware.com/game/sega-rally-2-championship-a62#download
++ myabandonware (Latest Portable) : https://www.myabandonware.com/game/sega-rally-2-championship-a62#download
 
-Sega Rally 2 Speed running Discord (Portable) : https://drive.google.com/drive/folders/1QpDH-hres794N_TCOcKEVm_4bN6E1mUo
++ Sega Rally 2 Speed running Discord (Portable) : https://drive.google.com/drive/folders/1QpDH-hres794N_TCOcKEVm_4bN6E1mUo
 
-In-dept Spanish Guide (Translated in English through Google Translate) : https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp
++ In-dept Spanish Guide (Translated in English through Google Translate) : https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp
 
 
 This text document purpose is to be shared around with players who love this game but always struggled to get this game running. You are free to edit this guide if new information or new builds has been developed. If done so, please add additional notes that the edit you have added was made by you. Once this document has been completed, this guide will be supported as long that i can with proper information and new methods.
 
 
-- KNOWN FIXES (So far)
+ KNOWN FIXES (So far)
+-------------
 
 If anything listed below you have issues with, please come back to this! 
 
@@ -92,8 +93,9 @@ As a last ditch effort, you could try https://sourceforge.net/projects/dxwnd/ A 
 
 
 ~ Chapter 1 ~
+-------------
 
-First step is that we need a few things, go onto • https://www.myabandonware.com/game/sega-rally-2-championship-a62#download •
+First step is that we need a few things, go onto **• https://www.myabandonware.com/game/sega-rally-2-championship-a62#download •**
 
 
 
@@ -105,7 +107,7 @@ then go onto here • https://archive.org/download/Sega_Rally_2_Championship_Win
 
 
 
-Download • SEGARally2Championship-Eng-PlayDisc.bin & SEGARally2Championship-Eng-PlayDisc.cue •  Since the internet archive has a download speed cap and your internet speed, this may take awhile. Download one at a time.
+Download **• SEGARally2Championship-Eng-PlayDisc.bin & SEGARally2Championship-Eng-PlayDisc.cue •**  Since the internet archive has a download speed cap and your internet speed, this may take awhile. Download one at a time.
 
 
 
@@ -159,6 +161,7 @@ Alright, the first part is now done! But, it's time to fix some things to make i
 
 
 ~ Chapter 2 - What a lovely mess! ~
+-------------
 
 
 
@@ -167,15 +170,17 @@ For this section, we're fixing 3 core things. CD Music, controller support and p
 
 
 ✰✰ VIDEO SETTINGS ✰✰
+-------------
 
 Due to how old this game is, the game's video settings aren't the greatest. So we need to use a software called dgVoodoo to make the magic work. I personally use version 2.55.4 but newer versions may work for this. 
 
 
 
-Go onto • https://rockraidersunited.com/files/general-tools/dgvoodoo-2554-r52/ • and click on the "Download File" button. This is a reupload of this version of an old dgVoodoo version since the official website hasn't worked in awhile BUT you are also free to try the newest version of it, if the old version doesn't work out for you!
+Go onto **• https://rockraidersunited.com/files/general-tools/dgvoodoo-2554-r52/ •** and click on the "Download File" button. This is a reupload of this version of an old dgVoodoo version since the official website hasn't worked in awhile BUT you are also free to try the newest version of it, if the old version doesn't work out for you!
 
-Official github : https://github.com/dege-diosg/dgVoodoo2/releases 
-Official website : https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/
+
++ Official github : https://github.com/dege-diosg/dgVoodoo2/releases 
++ Official website : https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/
 
 
 
@@ -185,22 +190,22 @@ dgVoodoo_2_55.4.zip should appear in your Downloads folder if you haven't change
 
 Next, we're putting these files from dgVoodoo into sega rally 2
 
-↳ dgVoodooCpl.exe 
-↳ dgVoodoo.conf
-↳ MS folder 
-↳ 3Dfx folder
+- dgVoodooCpl.exe 
+  - dgVoodoo.conf
+    - MS folder 
+      - 3Dfx folder
 
 
 
-Once they're inside of the Rally 2 folder, right click • SEGA RALLY 2.exe • then go to properties. Compatibility > Click on the box for • Run this program in compatibility mode • > Windows XP (Service Pack 2) > Apply > Ok. Do the same steps for • dgVoodooCpl.exe • 
+Once they're inside of the Rally 2 folder, right click **• SEGA RALLY 2.exe •** then go to properties. Compatibility > Click on the box for **• Run this program in compatibility mode •** > Windows XP (Service Pack 2) > Apply > Ok. Do the same steps for **• dgVoodooCpl.exe •**
 
 
 
-With that done, open up • dgVoodooCpl.exe • A permission menu will appear, press on yes. From now on, this is your video settings menu. There's a lot that you can do here, but if you want to follow my setup, here's what I personally do.
-
+With that done, open up **• dgVoodooCpl.exe •** A permission menu will appear, press on yes. From now on, this is your video settings menu. There's a lot that you can do here, but if you want to follow my setup, here's what I personally do.
 
 
 •• General ••
+-------------
 
 Appearance 
 ------------
@@ -219,7 +224,8 @@ Apply (to save your settings)
 
 
 
-•• Glide ••
+ •• Glide ••
+------------------ 
 Onboard Ram -> 12mb
 Resolution -> 1024x768 (feel free to mess with this at a later time)
 Antialiasing (MSAA) -> 2x
@@ -236,6 +242,7 @@ Everything else is off
 
 
 •• Direct X ••
+------------------ 
 VRAM -> 128mb
 Resolution 1024x768 (feel free to mess with this at a later time)
 ☑ Force vSync
