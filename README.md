@@ -71,12 +71,12 @@ This text document purpose is to be shared around with players who love this gam
  KNOWN FIXES (So far)
 -------------
 
-If anything listed below you have issues with, please come back to this! 
+If anything listed below you have issues with, please come back to this!
 
 
 ### The device settings won't appear!
 
-First step will be try to run LAUNCER.exe under compatibility mode for windows xp or vista service pack 2, ( right click LAUNCHER.EXE > Properties )  if that doesn't work. Under "Change high DPI settings" click the ☑ for "override high DPI scaling behavior" and make sure that its under "Application"
+First step will be to try to run LAUNCER.exe under compatibility mode for windows xp or vista service pack 2, ( right click LAUNCHER.EXE > Properties )  if that doesn't work. Under "Change high DPI settings" click the ☑ for "override high DPI scaling behaviour" and make sure that its under "Application"
 
 
 
@@ -87,7 +87,7 @@ Read above to change DPI settings!
 
 ### When Downloading DAEMON Tools, windows defender stopped with a warning of PUA:Win32/Puamson
 
-This should be no issues. From what i can tell, its mostly a warning that its an ad based malware but from what i can tell. It should be safe. Make an exception and download a general anti-virus like MalwareBytes to make scans just to be safe! Make sure to close MalwareBytes before installing DTLite, then after installation, run malwarebytes and do a scan.
+From what i can tell, it's mostly a warning that its an ad based malware, it should be safe to continue due to it bundling a crappy **VPN** service. Make it an exception and download a general antivirus like MalwareBytes to make scans just to be safe! Make sure to fully close MalwareBytes before installing DTLite, then after installation, run malwarebytes and do a scan.
 
 
 
@@ -95,7 +95,7 @@ This guide covers a lot of fixes for this game, https://oldnewpixel-blogspot-com
 
 
 ### As a last ditch effort, 
-you could try https://sourceforge.net/projects/dxwnd/ A software that helps win32 software like Sega Rally 2 :]
+You could try https://sourceforge.net/projects/dxwnd/ A software that helps win32 software like Sega Rally 2 :]
 
 
 ~ Chapter 1 ~
