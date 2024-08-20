@@ -90,13 +90,10 @@ Read above to change DPI settings!
 From what i can tell, it's mostly a warning that its an ad based malware, it should be safe to continue due to it bundling a crappy **VPN** service. Make it an exception and download a general antivirus like MalwareBytes to make scans just to be safe! Make sure to fully close MalwareBytes before installing DTLite, then after installation, run malwarebytes and do a scan.
 
 
-
-This guide covers a lot of fixes for this game, https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp  I highly recommend it!
-
-
-### As a last ditch effort, 
+### As a last ditch effort
 You could try https://sourceforge.net/projects/dxwnd/ A software that helps win32 software like Sega Rally 2 :]
 
+This guide also covers a lot of fixes for this game, https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp  I highly recommend it!
 
 ~ Chapter 1 ~
 -------------
