@@ -120,7 +120,7 @@ Next, we're getting a program that creates a virtual CD drive, i will be using D
 
 Press the DOWNLOAD button that's in a white box (free with ads), open the exe and install it. This process should be easy enough.
 
-## WARNING : As it tends with free software, it tries to bundle itself with a crappy VPN service. Please DO NOT mindlessly press next while setting up, once you see the menu to download the VPN. Skip it.
+### WARNING : As it is a free software, it tries to bundle itself with a crappy VPN service. Please DO NOT mindlessly press next while setting up, once you see the menu to download the VPN. Skip it.
 
 
 
