@@ -74,22 +74,28 @@ This text document purpose is to be shared around with players who love this gam
 If anything listed below you have issues with, please come back to this! 
 
 
-- The device settings won't appear!
+### The device settings won't appear!
 
 First step will be try to run LAUNCER.exe under compatibility mode for windows xp or vista service pack 2, ( right click LAUNCHER.EXE > Properties )  if that doesn't work. Under "Change high DPI settings" click the ☑ for "override high DPI scaling behavior" and make sure that its under "Application"
 
 
 
-- The game won't appear!
+### The game won't appear!
 
 Read above to change DPI settings!
+
+
+### When Downloading DAEMON Tools, windows defender stopped with a warning of PUA:Win32/Puamson
+
+This should be no issues. From what i can tell, its mostly a warning that its an ad based malware but from what i can tell. It should be safe. Make an exception and download a general anti-virus like MalwareBytes to make scans just to be safe! Make sure to close MalwareBytes before installing DTLite, then after installation, run malwarebytes and do a scan.
 
 
 
 This guide covers a lot of fixes for this game, https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp  I highly recommend it!
 
 
-As a last ditch effort, you could try https://sourceforge.net/projects/dxwnd/ A software that helps win32 software like Sega Rally 2 :]
+### As a last ditch effort, 
+you could try https://sourceforge.net/projects/dxwnd/ A software that helps win32 software like Sega Rally 2 :]
 
 
 ~ Chapter 1 ~
@@ -117,7 +123,7 @@ Next, we're getting a program that creates a virtual CD drive, i will be using D
 
 Press the DOWNLOAD button that's in a white box (free with ads), open the exe and install it. This process should be easy enough.
 
-# WARNING : As it tends with free software, it tries to bundle itself with a crappy VPN service. Please DO NOT mindlessly press next while setting up, once you see the menu to download the VPN. Skip it.
+## WARNING : As it tends with free software, it tries to bundle itself with a crappy VPN service. Please DO NOT mindlessly press next while setting up, once you see the menu to download the VPN. Skip it.
 
 
 
@@ -127,20 +133,20 @@ Note : I have installed this onto my C: drive since it has worked for me, instal
 
 
 
-Next up, open • Sega-Rally-2-Championship_Win_EN_ISO-Version.zip • And inside you'll see a folder named • Sega_Rally_2_ISO • Drag that onto your desktop.
+Next up, open **• Sega-Rally-2-Championship_Win_EN_ISO-Version.zip •** And inside you'll see a folder named **• Sega_Rally_2_ISO •** Drag that onto your desktop.
 
 
 
-Inside of • Sega_Rally_2_ISO • folder, you will see both a .cue and a .bin file then open DAEMON tools, on the bottom you'll see a quick mount option and select the cue file. And for when you want to remove the CD, you can hover the cd and click on the yellow top right icon.
+Inside of **• Sega_Rally_2_ISO •** folder, you will see both a .cue and a .bin file then open DAEMON tools, on the bottom you'll see a quick mount option and select the cue file. And for when you want to remove the CD, you can hover the cd and click on the yellow top right icon.
 
 
 
-Now, go onto file explorer then • This PC • and you should see a sega rally icon next to your drive. Double click that then a small setup menu will appear with a few options, click on INSTALL
+Now, go onto file explorer then **• This PC •** and you should see a sega rally icon next to your drive. Double click that then a small setup menu will appear with a few options, click on INSTALL
 
  
 
 
-Congrats, this is the first step of many. Hopefully it worked so far! If not, you do got a few options. You could reject the CD and try it again or try another virtual CD software. Remove the mounted CD, and uninstall DAEMON tools. Do try with WinCDEmu instead • https://wincdemu.sysprogs.org/download/ • 
+Congrats, this is the first step of many. Hopefully it worked so far! If not, you do got a few options. You could reject the CD and try it again or try another virtual CD software. Remove the mounted CD, and uninstall DAEMON tools. Do try with WinCDEmu instead **• https://wincdemu.sysprogs.org/download/ •** 
 
 One solution was to restart your computer, or you could go inside of the CD itself and run the setup.exe  If you do have a solution to this, please let me know!
 
@@ -169,7 +175,7 @@ For this section, we're fixing 3 core things. CD Music, controller support and p
 
 
 
-✰✰ VIDEO SETTINGS ✰✰
+•• VIDEO SETTINGS ••
 -------------
 
 Due to how old this game is, the game's video settings aren't the greatest. So we need to use a software called dgVoodoo to make the magic work. I personally use version 2.55.4 but newer versions may work for this. 
@@ -209,48 +215,48 @@ With that done, open up **• dgVoodooCpl.exe •** A permission menu will appea
 
 Appearance 
 ------------
-Windowed -> Stretched
-Everything else is default
++ Windowed -> Stretched
++ Everything else is default
 
 
 
 Miscellaneous
 ------------------  
-☑ Keep window aspect ratio  
-☐ Capture mouse  
-☑ Center App window 
++ ☑ Keep window aspect ratio  
++ ☐ Capture mouse  
++ ☑ Center App window 
 
-Apply (to save your settings)
++ Apply (to save your settings)
 
 
 
  •• Glide ••
 ------------------ 
-Onboard Ram -> 12mb
-Resolution -> 1024x768 (feel free to mess with this at a later time)
-Antialiasing (MSAA) -> 2x
++ Onboard Ram -> 12mb
++ Resolution -> 1024x768 (feel free to mess with this at a later time)
++ Antialiasing (MSAA) -> 2x
 
 
 Miscellaneous
 --------------
-☑ Force Vsync
-☑ Enable Glide Gamma ramp
-Everything else is off
++ ☑ Force Vsync
++ ☑ Enable Glide Gamma ramp
++ Everything else is off
 
- Apply (to save your settings)
++ Apply (to save your settings)
 
 
 
 •• Direct X ••
 ------------------ 
-VRAM -> 128mb
-Resolution 1024x768 (feel free to mess with this at a later time)
-☑ Force vSync
++ VRAM -> 128mb
++ Resolution 1024x768 (feel free to mess with this at a later time)
++ ☑ Force vSync
 
-Apply (to save your settings) then okay to close
++ Apply (to save your settings) then okay to close
 
 
-That's it! Of course, to change your settings again. Make sure to close your game and change any settings to your liking. Please keep note of what you have changed so you can easily go back! 
++ That's it! Of course, to change your settings again. Make sure to close your game and change any settings to your liking. Please keep note of what you have changed so you can easily go back! 
 
 
 
@@ -284,35 +290,35 @@ Once it popups, change your controller input device to your controller of choice
  HERE IS THE LIST OF XBOX BUTTONS
  ------------------ 
 + •••••••••••••••••••••••••••••••••••••
-+ • Left (L Joystick)                 •
-+ • Right (L Joystick)                •
-+ •                                   •
-+ • Up (L Joystick)                   •
-+ • Down (L Joystick)                 •
-+ •                                   •
-+ • Z Axis+  Right Trigger            •
-+ • Z Axis-  Left Trigger             •
-+ •                                   •
-+ • X Rotation+ Left  (R Joystick)    • 
-+ • X Rotation- Right  (R Joystick)   • 
-+ •                                   •
-+ • Y Rotation+  Up  (R Joystick)     •
-+ • Y Rotation-  Down (R Joystick)    • 
-+ •                                   •
-+ •                                   • 
-+ • Button 0  A                       •
-+ • Button 1  B                       •
-+ • Button 2  X                       •
-+ • Button 3  Y                       •
-+ •                                   •
-+ • Button 4  Left Bumper             •
-+ • Button 5  Right Bumper            •
-+ •                                   •
-+ • Button 6  Select                  •
-+ • Button 7  Start                   •
-+ •                                   •
-+ • Button 8  Left Stick Button       •
-+ • Button 9  Right Stick Button      •
++  Left (L Joystick)                 
++  Right (L Joystick)                
++                                    
++  Up (L Joystick)                   
++  Down (L Joystick)                 
++                                    
++  Z Axis+  Right Trigger            
++  Z Axis-  Left Trigger             
++                                    
++  X Rotation+ Left  (R Joystick)    
++  X Rotation- Right  (R Joystick)   
++                                    
++  Y Rotation+  Up  (R Joystick)     
++  Y Rotation-  Down (R Joystick)     
++                                    
++                                     
++  Button 0  A                       
++  Button 1  B                       
++  Button 2  X                       
++  Button 3  Y                       
++                                    
++  Button 4  Left Bumper             
++  Button 5  Right Bumper            
++                                    
++  Button 6  Select                  
++  Button 7  Start                   
++                                    
++  Button 8  Left Stick Button       
++  Button 9  Right Stick Button      
 + •••••••••••••••••••••••••••••••••••••
 
 
@@ -341,11 +347,11 @@ if you'd like to test your inputs, there's a calibration button. Click on the on
 From here, open the launcher then press play! With everything set and done, it should boot up! If not, change DPI settings as mentioned in the beginning or compatibility. That's the core solutions i could find so far!
 
 
- •• KEY REMINDERS! ••
+## •• KEY REMINDERS! ••
 
 For each time you want to play the game. You need to mount • SEGARally2Championship-Eng-PlayDisc.cue • through DAEMON tools, then once it's mounted. You can start playing the game. It will unmount each time you reset/close your pc, so the cd will be on at all times as long as the pc is on.
 
-I would highly recommend opening Task Manager and open up the "Startup" tab and make sure that DAEMON Tools doesn't boot when you open up windows. Click on it then disable on the bottom right.
+I would highly recommend opening **Task Manager** and open up the "Startup" tab and make sure that DAEMON Tools doesn't boot when you open up windows. Click on it then disable on the bottom right.
 
 To change controller inputs, you have to do it through LAUNCH.exe then DEVICE SETTINGS.
 
