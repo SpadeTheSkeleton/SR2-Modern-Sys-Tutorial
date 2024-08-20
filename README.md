@@ -37,7 +37,7 @@ If you're reading this on notepad, i recommend enabling Word Wrap ( Format > Wor
 
                                              
                                                                                         
-How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) (Created by SpadeTheSkeleton - August 9th 2024)
+## How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) (Created by SpadeTheSkeleton - Edited on August 20th '24 )
 
 
                                                                                                                                                            
@@ -47,7 +47,7 @@ PLEASE READ THIS BEFORE CONTINUING WITH THE GUIDE!
 
 This guide may not work for you due to how old the game is and how inconsistent things can be depending on how your system is. Try this method at your own risk and please read everything before attempting, a single mistake could mess up your own device.
 
-My guide was constructed under the methods that worked for me, please note that some information may be incorrect due to this being my first time trying to make a 1999 game work on modern systems. If none of the steps in this guide does work for you, I put down below this all the known methods of getting this game. The Alcino Major's Portable builds & a Spanish guide that goes very in-depth. 
+My guide was constructed under the methods that worked for me, please note that some information may be incorrect due to this being my first time trying to make a 1999 game work on modern systems, so this may get **updated** once more discoveries and information has been discovered. If none of the steps in this guide does work for you, I put down below this all the known methods of getting this game. The Alcino Major's Portable builds & a Spanish guide that goes very in-depth. 
 
 
 I would highly suggest to open up a text document while you're following the guide and write down which build of the game that you used, which settings you have changed, which OS you were on and any details you can tell. The more information that we can get to have more people to play this game, the better.
