@@ -66,19 +66,19 @@ If none of the steps in this guide does work for you, I put down below all the k
 
 If anything listed below you have issues with, please come back to this!
 
+> [!WARNING]
+> ## The game won't appear no matter which compatibility mode I use! 
+>
+> First step will be to change **DPI settings**, right click **Sega Rally 2.exe** > **Properties** > **"Change high DPI settings"** > click the ☑ for **"override high DPI scaling behaviour"**
+>
+> You could try [dxwnd](https://sourceforge.net/projects/dxwnd/) A software that helps win32 software run 
 
-## The game won't appear no matter which compatibility mode I use! 
-
-First step will be to change **DPI settings**, right click **• Sega Rally.exe •** > **Properties** > **"Change high DPI settings"** > click the ☑ for **"override high DPI scaling behaviour"**
-
-You could try [dxwnd](https://sourceforge.net/projects/dxwnd/) A software that helps win32 software run 
-
-
-## When trying to run the DAEMON Tools setup, windows defender shown a warning of PUA:Win32/Puamson
-
-From what i can tell, it's mostly a warning that its an ad based malware, it should be safe to continue due to it bundling a crappy **VPN** service.
-
-Make it an exception and download a general antivirus like [MalwareBytes (direct download link)](https://www.malwarebytes.com/mwb-download/thankyou) to make scans. Make sure to fully close MalwareBytes before installing DTLite, then after installation, run the antivirus to do a scan. It will remove a few files, and you should be fine •ᴗ•
+> [!WARNING]
+> ## When trying to run the DAEMON Tools setup, windows defender shown a warning of PUA:Win32/Puamson
+>
+> From what i have seen, it's mostly a warning that its an ad based malware, it should be safe to continue due to it bundling a crappy **VPN** service.
+>
+> Make it an exception and download a general antivirus like [MalwareBytes (direct download link)](https://www.malwarebytes.com/mwb-download/thankyou) to make scans. Make sure to fully close MalwareBytes before installing DTLite, then after installation, run the antivirus to do a scan. It will remove a few files, and you should be fine •ᴗ•
 
 
 
@@ -91,6 +91,7 @@ First step is that we need a few things,
 2. You will see 4 blue buttons, Click on the **• ISO Version •** button
 3. Lastly go to **• https://archive.org/download/Sega_Rally_2_Championship_Win95_1999_Eng •**
 4. Download both the **.cue** and **.bin** for **• SEGARally2Championship-Eng-PlayDisc •**  Since the internet archive has a download speed cap and your internet speed, this may take awhile. **Download one at a time.**
+5. Both the **play disc** files will be used at a later time to play the game, create a folder on your desktop to store it for ease of use when its time.
 
 Next, we're getting a program that creates a virtual CD drive, i will be using **DAEMON Tools** (You can also use WinCDEmu) 
 + • [DAEMON Tools Lite](https://www.daemon-tools.cc/products/dtLite#page) •
@@ -118,11 +119,11 @@ Next up, open **• Sega-Rally-2-Championship_Win_EN_ISO-Version.zip •** And i
 
 
 
-Inside of **• Sega_Rally_2_ISO •** folder, you will see both a **.cue** and a **.bin** file then open **DAEMON tools**, on the bottom you'll see a quick mount option and select the cue file. And for when you want to remove the CD, you can hover the cd and click on the yellow top right icon.
+Inside of **• Sega_Rally_2_ISO •** folder, you will see a **.cue** and a **.bin** file. Open **DAEMON tools** and the bottom you'll see a quick mount option and select the cue file. A menu should popup at the bottom right saying that a CD was mounted.
 
 
 
-Now, go onto file explorer then **• This PC •** and you should see a sega rally icon next to your drive. Double click that then a small setup menu will appear with a few options, click on INSTALL
+Now, go onto **File Explorer** then **• This PC •** and you should see a Sega Rally 2 icon next to your drive. Double click that then a small setup menu will appear with a few options, click on INSTALL
 
  
 
@@ -130,12 +131,15 @@ Congrats, this is the first step of many. **Hopefully it worked so far!**
 
 
 > [!TIP]
-> If the setup doesn't open, there is a potential solution!
-> You could reject the CD and try it again or try another virtual CD software. Remove the mounted CD, and uninstall DAEMON tools. Do try with WinCDEmu instead **• https://wincdemu.sysprogs.org/download/ •**  One solution found to restart your computer, or you could go inside of the CD itself and run the setup.exe **If you do have a solution to this, please let me know!**
+> If the setup doesn't open, there is a **potential solution** to this.
+> 
+> You could reject the CD and try it again or try another **virtual CD** software. Remove the mounted CD, and uninstall DAEMON tools. Do try with WinCDEmu instead **• https://wincdemu.sysprogs.org/download/ •**
+>
+> One solution found was to restart your computer, or you could go inside of the CD itself and run the setup.exe **If you do have a solution to this, please let me know!**
 
 
 
-The **welcome menu** should appear. Press on **Next** > **Yes** > **Browse** > **Double Click on c:** > Select the folder created on your **c: drive** > next and continue press **next**. From there, it should start. This will take less than a few minutes.
+The **Setup menu** should appear. Press on **Next** > **Yes** > **Browse** > **Double Click on c:** > Select the folder created on your **c: drive** > next and continue press **next**. From there, it should start. This will take less than a few minutes.
 
 
 
@@ -143,12 +147,7 @@ When it finishes, Click on ☑ for **"Add a SEGA RALLY 2 shortcut to Desktop"** 
 
 
 
-Alright, the first part is now done! But, it's time to fix some things to make it fully playable! 
-
-
-
-For the next part, keep file explorer opened within the Sega Rally 2 folder. The next step is to put files inside of said folder to make the game work proper *•ᴗ•*
-
+Alright, the first part is now done! But, it's time to fix some things to make it fully **playable!** Make sure to keep the **Sega Rally 2** folder opened for this next section!
 
 
 
@@ -183,7 +182,8 @@ Next, we're putting these files from dgVoodoo into the **Sega Rally 2** folder.
 > [!IMPORTANT]
 > - dgVoodooCpl.exe 
 >  - dgVoodoo.conf
->  - **in MS > x86**
+>  
+>  **in MS > x86**
 >    - D3D8.dll 
 >      - D3D9.dll 
 >        - D3Dlmm.dll 
@@ -191,13 +191,19 @@ Next, we're putting these files from dgVoodoo into the **Sega Rally 2** folder.
 
 
 
-Once they are inside of the Rally 2 folder, right click **• SEGA RALLY 2.exe •** then go to **Properties** > **Compatibility** > Click on the box for **Run this program in compatibility mode** > **Windows XP (Service Pack 2)** > **Apply** > **Ok** 
+Once they are inside of the Rally 2 folder, right click **• SEGA RALLY 2.exe •** > **Properties** > **Compatibility** > Click on the box for **Run this program in compatibility mode** > **Windows XP (Service Pack 2)** > **Apply** > **Ok** 
 
 Repeat the steps for **• dgVoodooCpl.exe •**
 
+> [!NOTE]
+> Before you continue, we need to change one setting in **LAUNCH.exe**
+> + Right Click **LAUNCH.exe** > **Properties** > **Compatibility** > Click on the box for **Run this program in compatibility mode** > **Windows 95** > **Apply** > **Ok**
+> + Open **LAUNCH.exe** then click on **DISPLAY SETTINGS**
+> + If the **DISPLAY MENU** doesn't appear after a few tries, please try running it under **Windows XP (Service Pack 2)**
+> + Change the **resolution** to **800x600**
+> + **Ok** > **Exit**
 
-With that done, open up **• dgVoodooCpl.exe •** A permission menu will appear, press on yes. From now on, this is your **video settings** for the game. There's a lot that you can do here, but here's what i personally recommend.
-
+With that done, open up **• dgVoodooCpl.exe •** A permission menu will appear, press on yes. From now on, this will be your main **video settings** for the game. There's a lot that you can do here, but here's what i **personally** recommend.  
 
 •• General ••
 -------------
@@ -257,14 +263,23 @@ To re-add CD music, there are 2 unofficial methods to this. For this section, I 
 
 ## ・・ External Method (Patching EXE)  ・・
 1. Go onto your **Sega Rally 2** folder and create a folder named **Music**. This is where we're gonna extract the music.
+
 2. Open **DAEMON Tools** and mount the **playdisc.bin**, then open up **Windows Media Player**
+
 3. If you're not already in **Library** mode, you can get to that by clicking on the top right icon **(The 3 cubes and an arrow)** On the left, you should see **"Unknown Library"** listed. That's the **Sega Rally 2** Ost. Click on that.
+
 4. For each song shown, a ☐ should be next to it. To save some time, in the **Album** section there's a ☐ to select all the songs at once. 
+
 5. Once selected, go to **Rip settings**. From here you can select the **format** (I will go with .mp3) & the **Audio Quality**. Select **More Options** then click on **Change...** to change where the song will be ripped into. Go to the **Music** folder we created earlier and select that then press ok.
+
 6. Click on **Rip CD** This will start the process of ripping the songs. 
+
 7. When completed, go to this [link](https://community.pcgamingwiki.com/files/file/107-patched-_inmmdll/) to get _inmm. Go into the comments and you'll see **• inmm236.exe •** and click on that. This version of **_inmm** works best with Sega Rally 2
+
 8. Open the **• inmm236.exe •**, uncheck ☐ both available options > **Next** > **Browse** > **Sega Rally 2** > **Install** 
+
 9. Inside of the **Sega Rally 2** folder, open **• _inmmcnf.exe •** then go to the **_inmm.ini** tab. Select **Add** and go to the Music folder created in your Sega Rally 2, hold **Shift** on your keyboard and select **Track 13** first then **Track 1**. This should select all the songs in order. Press on **Open** then **Save**, make sure to save this to the **Sega Rally 2** folder and not in the **Music** folder.
+
 10. Next, go to the **Patch** tab, In the **Search box**, write in **Sega Rally** then press **Find**. Select **Sega Rally 2** > **Patch** > **Ok x2**
 
 Close the software and you're now set! 
@@ -298,30 +313,30 @@ If you're playing with a controller, **make sure that its plugged before running
 Double click **• LAUNCH.exe •** then a menu appears. Select **DEVICE SETTINGS**, this may take a few tries. I usually give it 2 seconds before trying again, then it should appear eventually after a minute or so. The only annoying bit that i can't have a 100% success rate so far.
 
 > [!NOTE]
-> If Device Settings doesn't appear after a few tries in Win95, the fixes that we found was to run it under Windows XP (Service Pack 2) and/or Change high DPI settings in compatibiltity mode. Click on the ☐ for **High DPI scaling override**. Make sure to apply the changes.
+> If **Device Settings** doesn't appear after a few tries in Win95, the fixes that we found was to
+> + run it under **Windows XP (Service Pack 2)** and/or
+> + **Change high DPI** settings in compatibiltity mode. Click on the ☐ for **High DPI scaling override**. 
 
-Then, in the **• SELECT YOUR INPUT DEVICE •** box. Select your preferred method of playing the game. For this guide, I will be using an Xbox controller. I've included a list of what each button does for that setup.
 
-
-
+When the **Device Settings** menu is opened, You can select your preferred method of playing this game through the **• SELECT YOUR INPUT DEVICE •** box. For this guide, I will be using an **Xbox** controller. I've included a list of what each button does for that setup.
 
 
 
  HERE IS THE LIST OF XBOX BUTTONS
 ----------------
 + •••••••••••••••••••••••••••••••••••••
-+  Left (L Joystick)                 
-+  Right (L Joystick)                                                    
-+  Up (L Joystick)                   
-+  Down (L Joystick)                 
++  Left **(L Joystick)**                 
++  Right **(L Joystick)**                                                    
++  Up **(L Joystick)**                   
++  Down **(L Joystick)**                 
 +                                    
 +  Z Axis+  Right Trigger            
-+  Z Axis-  Left Trigger             
++  Z Axis-  Left Trigger           
 +                                    
-+  X Rotation+ Left  (R Joystick)    
-+  X Rotation- Right  (R Joystick)                                    
-+  Y Rotation+  Up  (R Joystick)     
-+  Y Rotation-  Down (R Joystick)     
++  X Rotation+ Left  **(R Joystick)**    
++  X Rotation- Right  **(R Joystick)**                                    
++  Y Rotation+  Up  **(R Joystick)**     
++  Y Rotation-  Down **(R Joystick)**     
 +                                                                      
 +  Button 0  A                       
 +  Button 1  B                       
@@ -338,7 +353,7 @@ Then, in the **• SELECT YOUR INPUT DEVICE •** box. Select your preferred met
 + •••••••••••••••••••••••••••••••••••••
 
 
-Here's what i use for my controls, 
+Here are the controls i personally  use, 
 
 Accel as **Right Trigger - Z Axis+**
 
@@ -364,17 +379,20 @@ Once you configured everything that you like, make sure to Click **Save** and yo
 ~ Chapter 3 - The adventure ends here! ~
 ------------------ 
 
-From here, open **LAUNCH.exe** then press PLAY! With everything set and done, it should boot up! If not, feel free to try again until it works. I'd recommend visting the KNOWN FIXES section of the guide if **issues persists** •ᴗ•
+From here, mount the **PlayDisc.cue** **(You can double click on the .cue file or mount it through the program)** then open **LAUNCH.exe** then press **PLAY**! With everything set and done, it should **boot** up! If not, feel free to try again until it works. I will recommend visting the **KNOWN FIXES** section of the guide if **issues persists** •ᴗ•
 
 
 ## •• KEY REMINDERS! ••
 
 > [!NOTE]
-> For each time you want to play the game. You need to mount **• SEGARally2Championship-Eng-PlayDisc.cue •** through DAEMON tools, then once it's mounted. You can start playing the game. Once you're **done playing**, you can right click the mounted CD to Unmount it (or you can hover the CD icon and click on the small yellow button)
+> For each time you want to play the game. You need to mount **• SEGARally2Championship-Eng-PlayDisc.cue •** through DAEMON tools, then once it's mounted. You can start playing the game. Once you're **done playing**,
+> 1. you can right click the mounted CD to Unmount/Eject it **(Through DAEMON Tools or File Explorer)**
+> 2. You can hover the CD icon and click on the small yellow button
 >
 > **I would highly recommend** opening **Task Manager** and select the **"Startup"** tab and make sure that DAEMON Tools doesn't boot when you open up windows. Click on it then **disable**
 >
-> **I would highly recommend** having the window's **volume mixer** opened during playing the game, since the game can be very loud! Once you're in-game, go to **options** and change your sound settings to your liking **( If you used the internal method, the CD audio will still be loud during CD audio no matter what settings you change.)**
+> **I would highly recommend** having the window's **volume mixer** opened during playing the game, since the game can be very loud!
+> Once you're in-game, go to **options** and change your sound settings to your liking **( If you used the internal patching method, the CD audio will still be loud during CD audio no matter what settings you change.)**
 >
 > To **pause** the game, you press the **enter key** (trying to find a solution to that for controllers)
 
@@ -383,8 +401,8 @@ From here, open **LAUNCH.exe** then press PLAY! With everything set and done, it
 
 CREDITS
 ----------------
-+ SpadeTheSkeleton - For starting this project 
++ SpadeTheSkeleton - For starting this project •ᴗ•
 + Lootria - For guiding me in the right direction for the cd fix and for giving my first initial guide a try
-+ peppercornyeen - For being with me for the first few rounds of trying to make it work
++ peppercornyeen - For being with me for the first few rounds of trying to make it work •ᴗ•
 + TransCanadaLimited - For being the biggest inspiration for the rally scene and inspired me for making this work
-+ q_angell, OtterlyStoned & Corvoda - For being guide testers!
++ q_angell, OtterlyStoned & Corvoda - For being guide testers!•ᴗ•
