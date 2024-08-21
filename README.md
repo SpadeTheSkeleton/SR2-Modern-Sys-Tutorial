@@ -1,6 +1,6 @@
 ## How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) 
 
-## Created by SpadeTheSkeleton - Last Edited : August 20th 2024 11:04pm
+## Created by SpadeTheSkeleton - Last Edited : August 21st 2024 9:41pm
 
 
 
