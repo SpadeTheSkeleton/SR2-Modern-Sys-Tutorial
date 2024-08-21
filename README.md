@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6b21e2ea-3fdd-4f92-8d04-f69ee53cfc5a)## How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) 
+## How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) 
 
 ## Created by SpadeTheSkeleton - Last Edited : August 20th 2024 11:04pm
 
