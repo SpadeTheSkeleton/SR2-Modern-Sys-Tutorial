@@ -69,7 +69,7 @@ If anything listed below you have issues with, please come back to this!
 > [!WARNING]
 > ## The game won't appear no matter which compatibility mode I use! 
 >
-> First step will be to change **DPI settings**, right click **Sega Rally 2.exe** > **Properties** > **"Change high DPI settings"** > click the ☑ for **"override high DPI scaling behaviour"**
+> First step will be to change **DPI settings**, right click **Sega Rally 2.exe** > **Properties** > **"Change high DPI settings"** > **Compatibility** > click the ☑ for **"override high DPI scaling behaviour"**
 >
 > You could try [dxwnd](https://sourceforge.net/projects/dxwnd/) A software that helps win32 software run 
 
