@@ -1,4 +1,4 @@
-## How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) 
+![image](https://github.com/user-attachments/assets/6b21e2ea-3fdd-4f92-8d04-f69ee53cfc5a)## How to make original Sega Rally 2 (CD) work on modern PC systems (win 10/11) 
 
 ## Created by SpadeTheSkeleton - Last Edited : August 20th 2024 11:04pm
 
@@ -67,14 +67,14 @@ If none of the steps in this guide does work for you, I put down below all the k
 If anything listed below you have issues with, please come back to this!
 
 
-### The game won't appear no matter which compatibility mode I use! 
+## The game won't appear no matter which compatibility mode I use! 
 
-First step will be to change **DPI settings**, right click **• Sega Rally.exe •** > Properties  Under "Change high DPI settings" click the ☑ for "override high DPI scaling behaviour" 
+First step will be to change **DPI settings**, right click **• Sega Rally.exe •** > Properties > "Change high DPI settings" click the ☑ for "override high DPI scaling behaviour" 
 
 You could try [dxwnd](https://sourceforge.net/projects/dxwnd/) A software that helps win32 software run 
 
 
-### When trying to run the DAEMON Tools setup, windows defender shown a warning of PUA:Win32/Puamson
+## When trying to run the DAEMON Tools setup, windows defender shown a warning of PUA:Win32/Puamson
 
 From what i can tell, it's mostly a warning that its an ad based malware, it should be safe to continue due to it bundling a crappy **VPN** service.
 
@@ -89,28 +89,23 @@ First step is that we need a few things,
 
 1. Go to  **• https://www.myabandonware.com/game/sega-rally-2-championship-a62#download •**
 2. You will see 4 blue buttons, Click on the **• ISO Version •** button
-3.  **• https://archive.org/download/Sega_Rally_2_Championship_Win95_1999_Eng •**
+3. Lastly go to **• https://archive.org/download/Sega_Rally_2_Championship_Win95_1999_Eng •**
+4. Download both the **.cue** and **.bin** for **• SEGARally2Championship-Eng-PlayDisc •**  Since the internet archive has a download speed cap and your internet speed, this may take awhile. **Download one at a time.**
 
-
-
-Download both the **.cue** and **.bin** for **• SEGARally2Championship-Eng-PlayDisc •**  Since the internet archive has a download speed cap and your internet speed, this may take awhile. **Download one at a time.**
-
-
-
-Next, we're getting a program that creates a virtual CD drive, i will be using DAEMON Tools (You can also use WinCDEmu) • [DAEMON Tools Lite](https://www.daemon-tools.cc/products/dtLite#page) •  • [WinCDEmu](https://wincdemu.sysprogs.org/download/) •
+Next, we're getting a program that creates a virtual CD drive, i will be using **DAEMON Tools** (You can also use WinCDEmu) • [DAEMON Tools Lite](https://www.daemon-tools.cc/products/dtLite#page) •  • [WinCDEmu](https://wincdemu.sysprogs.org/download/) •
 
 
 Press the **DOWNLOAD** button that's in a white box (free with ads), open the exe and install it. This process should be easy enough.
 
 > [!WARNING]
-> **If you can't run the setup exe due to windows defender showing PUA:Win32/Puamson, please go to the known fixes section.**
+> **If you can't run the setup exe due to windows defender showing error PUA:Win32/Puamson, please go to the known fixes section.**
 
 > [!CAUTION]
 > **As it is a free software, it tries to bundle itself with a crappy VPN service. Please DO NOT mindlessly press next while setting up, once you see the menu to download the VPN. Skip it.**
 
 
 
-Once **DAEMON tools** is done installing, the **ultimate step** to make this work is that we need to create a folder onto your C: drive to put the game in. Open up file explorer and follow this closely, This PC > Windows Hard Drive (C:) > Right click > New > Folder > Name it to "Sega Rally 2" or to whichever you prefer.
+Once **DAEMON tools** is done installing, the **ultimate step** to make this work is that we need to create a folder onto your C: drive to put the game in. Open up File Explorer and follow this closely, **This PC** > **Windows Hard Drive (C:)** > **Right click** > **New** > **Folder** > Name it to **"Sega Rally 2"** or to whichever you prefer.
 
 > [!TIP]
 > **I have installed this onto my C: drive since it has worked for me, installing it onto another drive may work but I wasn't able to confirm this. Try it at your own risk.**
@@ -177,11 +172,11 @@ If you need an old release of dgVoodoo2 for any reason, this is version v.255 �
 
 
 
-**dgVoodoo_2_83.zip** should appear in your Downloads folder or to wherever you have downloaded at. To unzip the file with **7zip**, right click the zip then its "Extract To". This will create a new folder with all the files. For any other software, do use something similar to that for simplicity.
+**dgVoodoo_2_83.zip** should appear in your **Downloads** folder or to wherever you have downloaded at. To unzip the file with **7zip**, right click the zip then its "Extract To". This will create a new folder with all the files. For any other software, do use something similar to that for simplicity.
 
 
 
-Next, we're putting these files from dgVoodoo into sega rally 2
+Next, we're putting these files from dgVoodoo into the **Sega Rally 2** folder.
 
 > [!IMPORTANT]
 > - dgVoodooCpl.exe 
@@ -194,10 +189,12 @@ Next, we're putting these files from dgVoodoo into sega rally 2
 
 
 
-Once they are inside of the Rally 2 folder, right click **• SEGA RALLY 2.exe •** then go to properties. Compatibility > Click on the box for **• Run this program in compatibility mode •** > **Windows XP (Service Pack 2)** > **Apply** > Ok. Do the same steps for **• dgVoodooCpl.exe •**
+Once they are inside of the Rally 2 folder, right click **• SEGA RALLY 2.exe •** then go to **Properties** > **Compatibility** > Click on the box for **Run this program in compatibility mode** > **Windows XP (Service Pack 2)** > **Apply** > **Ok** 
+
+Repeat the steps for **• dgVoodooCpl.exe •**
 
 
-With that done, open up **• dgVoodooCpl.exe •** A permission menu will appear, press on yes. From now on, this is your video settings menu. There's a lot that you can do here, but if you want to follow my setup, here's what I personally do.
+With that done, open up **• dgVoodooCpl.exe •** A permission menu will appear, press on yes. From now on, this is your **video settings** for the game. There's a lot that you can do here, but here's what i personally recommend.
 
 
 •• General ••
@@ -249,24 +246,24 @@ With that done, open up **• dgVoodooCpl.exe •** A permission menu will appea
 To re-add CD music, there are 2 unofficial methods to this. For this section, I will be using the External method. 
 
 - Method 1 **(Recommended)** : Patching game EXE & extracting game music **( Difficulty : Medium )**
-Pros : Doesn't rely on the CD for music & have access to control the CD audio volume
-Con : This method takes the longest 
++ Pros : Doesn't rely on the CD for music & have access to control the CD audio volume
++ Con : This method takes the longest 
 
 - Method 2 : Unofficial Patch for CD Music  **( Difficulty : Easy )**
-Pros : Takes less than 30 seconds to set up. Drag and drop.
-Con : You cannot control how loud the music is during CD audio sections & can cause slight lag when pausing.
++ Pros : Takes less than 30 seconds to set up. Drag and drop.
++ Con : You cannot control how loud the music is during CD audio sections & can cause slight lag when pausing.
 
 ## ・・ External Method (Patching EXE)  ・・
 1. Go onto your **Sega Rally 2** folder and create a folder named **Music**. This is where we're gonna extract the music.
-2. Open DAEMON Tools and mount the **playdisc.bin**, then open up **Windows Media Player**
-3. If you're not already in Library mode, switch to that by clicking on the top right icon **(The 3 cubes and an arrow)** On the left, you should see "Unknown Library" listed. That's the **Sega Rally 2** Ost. Click on that.
+2. Open **DAEMON Tools** and mount the **playdisc.bin**, then open up **Windows Media Player**
+3. If you're not already in **Library** mode, you can get to that by clicking on the top right icon **(The 3 cubes and an arrow)** On the left, you should see **"Unknown Library"** listed. That's the **Sega Rally 2** Ost. Click on that.
 4. For each song shown, a ☐ should be next to it. To save some time, in the **Album** section there's a ☐ to select all the songs at once. 
-5. Once selected, go to Rip settings. From here you can select the **format** (I will go with .mp3) & the **Audio Quality**. Select **More Options** then click on **Change...** to change where the song will be ripped into. Go to the **Music** folder we created earlier and select that then press ok.
+5. Once selected, go to **Rip settings**. From here you can select the **format** (I will go with .mp3) & the **Audio Quality**. Select **More Options** then click on **Change...** to change where the song will be ripped into. Go to the **Music** folder we created earlier and select that then press ok.
 6. Click on **Rip CD** This will start the process of ripping the songs. 
-7. When completed, go to this [link](https://community.pcgamingwiki.com/files/file/107-patched-_inmmdll/) to get [_inmm](A software to play music externally and patches the game). Go into the comments and you'll see **• inmm236.exe •** and click on that. This version of _inmmdll works best with Sega Rally 2
+7. When completed, go to this [link](https://community.pcgamingwiki.com/files/file/107-patched-_inmmdll/) to get _inmm. Go into the comments and you'll see **• inmm236.exe •** and click on that. This version of **_inmm** works best with Sega Rally 2
 8. Open the **• inmm236.exe •**, uncheck ☐ both available options > **Next** > **Browse** > **Sega Rally 2** > **Install** 
-9. Inside of the Sega Rally 2 Folder, open **• _inmmcnf.exe •** then go to the last tab. Select **Add** and go to the Music folder created in your Sega Rally 2, hold **Shift** on your keyboard and select **Track 13** first then **Track 1**. This should select all the songs in order. Press on **Open** then **Save**, make sure to save this to the **Sega Rally 2** folder and the **Music** folder.
-10. Go to the **Patch** tab, In the **Search box**, write in **Sega Rally** then press on **Find**. Select **Sega Rally 2** > **Patch** > **Ok x2**
+9. Inside of the **Sega Rally 2** folder, open **• _inmmcnf.exe •** then go to the **_inmm.ini** tab. Select **Add** and go to the Music folder created in your Sega Rally 2, hold **Shift** on your keyboard and select **Track 13** first then **Track 1**. This should select all the songs in order. Press on **Open** then **Save**, make sure to save this to the **Sega Rally 2** folder and not in the **Music** folder.
+10. Next, go to the **Patch** tab, In the **Search box**, write in **Sega Rally** then press **Find**. Select **Sega Rally 2** > **Patch** > **Ok x2**
 
 Close the software and you're now set! 
 
@@ -299,7 +296,7 @@ If you're playing with a controller, **make sure that its plugged before running
 Double click **• LAUNCH.exe •** then a menu appears. Select **DEVICE SETTINGS**, this may take a few tries. I usually give it 2 seconds before trying again, then it should appear eventually after a minute or so. The only annoying bit that i can't have a 100% success rate so far.
 
 > [!NOTE]
-> If Device Settings doesn't appear after a few tries in Win95, the fixes that we found was to run it under Windows XP (Service Pack 2) and/or Change high DPI settings and click on the ☐ for High DPI scaling override. Make sure to apply the changes.
+> If Device Settings doesn't appear after a few tries in Win95, the fixes that we found was to run it under Windows XP (Service Pack 2) and/or Change high DPI settings in compatibiltity mode. Click on the ☐ for **High DPI scaling override**. Make sure to apply the changes.
 
 Then, in the **• SELECT YOUR INPUT DEVICE •** box. Select your preferred method of playing the game. For this guide, I will be using an Xbox controller. I've included a list of what each button does for that setup.
 
@@ -351,8 +348,11 @@ Shift Up as **X Button - Button 2**
 
 Shift Down as **B Button - Button A** 
 
+Once you configured everything that you like, make sure to Click **Save** and you're free to close the software!
+
+
 > [!NOTE]
-> If you'd like to test your inputs for **Steering**, **Acceleration** & **Breaking**. Click on the **CALIBRATION...** button and select the ones you want to test. You can adjust the range as well. Once you find something that you enjoy. Press on Okay then Save!
+> If you'd like to test your inputs for **Steering**, **Acceleration** & **Breaking**. Click on the **CALIBRATION...** button and select the ones you want to test. You can adjust the range as well. Once you find something that you enjoy. Press Okay then Save!
 
 
 
@@ -362,18 +362,18 @@ Shift Down as **B Button - Button A**
 ~ Chapter 3 - The adventure ends here! ~
 ------------------ 
 
-From here, open **LAUNCH.exe** then press PLAY! With everything set and done, it should boot up! If not, feel free to try again until it works. I'd recommend visting the KNOWN FIXES section of the guide •ᴗ•
+From here, open **LAUNCH.exe** then press PLAY! With everything set and done, it should boot up! If not, feel free to try again until it works. I'd recommend visting the KNOWN FIXES section of the guide if **issues persists** •ᴗ•
 
 
 ## •• KEY REMINDERS! ••
 
 > [!NOTE]
 > For each time you want to play the game. You need to mount **• SEGARally2Championship-Eng-PlayDisc.cue •** through DAEMON tools, then once it's mounted. You can start playing the game. Once you're done playing, you can right click the mounted CD to Unmount it (or you can hover the CD icon and click on the small yellow button)
-
+>
 > *I would highly recommend* opening **Task Manager** and select the **"Startup"** tab and make sure that DAEMON Tools doesn't boot when you open up windows. Click on it then **disable**
-
+>
 > *I would highly recommend* having the window's volume mixer opened, since the game can be very loud! Once you're in-game, go to options and change your sound settings to your liking ( If you used the internal method, the CD audio will still be loud during CD audio no matter what settings you change)
-
+>
 > To pause the game, you press the enter key (trying to find a solution to that for controllers)
 
 
