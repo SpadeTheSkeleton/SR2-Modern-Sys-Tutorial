@@ -92,10 +92,12 @@ First step is that we need a few things,
 3. Lastly go to **• https://archive.org/download/Sega_Rally_2_Championship_Win95_1999_Eng •**
 4. Download both the **.cue** and **.bin** for **• SEGARally2Championship-Eng-PlayDisc •**  Since the internet archive has a download speed cap and your internet speed, this may take awhile. **Download one at a time.**
 
-Next, we're getting a program that creates a virtual CD drive, i will be using **DAEMON Tools** (You can also use WinCDEmu) • [DAEMON Tools Lite](https://www.daemon-tools.cc/products/dtLite#page) •  • [WinCDEmu](https://wincdemu.sysprogs.org/download/) •
+Next, we're getting a program that creates a virtual CD drive, i will be using **DAEMON Tools** (You can also use WinCDEmu) 
++ • [DAEMON Tools Lite](https://www.daemon-tools.cc/products/dtLite#page) •
++ • [WinCDEmu](https://wincdemu.sysprogs.org/download/) •
 
 
-Press the **DOWNLOAD** button that's in a white box (free with ads), open the exe and install it. This process should be easy enough.
+Press the **DOWNLOAD** button that's in a white box **(free with ads)**, open the exe and install it. This process is quite easy.
 
 > [!WARNING]
 > **If you can't run the setup exe due to windows defender showing error PUA:Win32/Puamson, please go to the known fixes section.**
