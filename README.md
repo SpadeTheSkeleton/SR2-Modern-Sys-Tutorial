@@ -69,7 +69,7 @@ If anything listed below you have issues with, please come back to this!
 
 ## The game won't appear no matter which compatibility mode I use! 
 
-First step will be to change **DPI settings**, right click **• Sega Rally.exe •** > Properties > "Change high DPI settings" click the ☑ for "override high DPI scaling behaviour" 
+First step will be to change **DPI settings**, right click **• Sega Rally.exe •** > **Properties** > **"Change high DPI settings"** > click the ☑ for **"override high DPI scaling behaviour"**
 
 You could try [dxwnd](https://sourceforge.net/projects/dxwnd/) A software that helps win32 software run 
 
@@ -368,13 +368,13 @@ From here, open **LAUNCH.exe** then press PLAY! With everything set and done, it
 ## •• KEY REMINDERS! ••
 
 > [!NOTE]
-> For each time you want to play the game. You need to mount **• SEGARally2Championship-Eng-PlayDisc.cue •** through DAEMON tools, then once it's mounted. You can start playing the game. Once you're done playing, you can right click the mounted CD to Unmount it (or you can hover the CD icon and click on the small yellow button)
+> For each time you want to play the game. You need to mount **• SEGARally2Championship-Eng-PlayDisc.cue •** through DAEMON tools, then once it's mounted. You can start playing the game. Once you're **done playing**, you can right click the mounted CD to Unmount it (or you can hover the CD icon and click on the small yellow button)
 >
-> *I would highly recommend* opening **Task Manager** and select the **"Startup"** tab and make sure that DAEMON Tools doesn't boot when you open up windows. Click on it then **disable**
+> **I would highly recommend** opening **Task Manager** and select the **"Startup"** tab and make sure that DAEMON Tools doesn't boot when you open up windows. Click on it then **disable**
 >
-> *I would highly recommend* having the window's volume mixer opened, since the game can be very loud! Once you're in-game, go to options and change your sound settings to your liking ( If you used the internal method, the CD audio will still be loud during CD audio no matter what settings you change)
+> **I would highly recommend** having the window's **volume mixer** opened during playing the game, since the game can be very loud! Once you're in-game, go to **options** and change your sound settings to your liking **( If you used the internal method, the CD audio will still be loud during CD audio no matter what settings you change.)**
 >
-> To pause the game, you press the enter key (trying to find a solution to that for controllers)
+> To **pause** the game, you press the **enter key** (trying to find a solution to that for controllers)
 
 
 
