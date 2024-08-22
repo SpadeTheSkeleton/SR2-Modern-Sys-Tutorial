@@ -401,8 +401,8 @@ From here, mount the **PlayDisc.cue** **(You can double click on the .cue file o
 
 CREDITS
 ----------------
-+ SpadeTheSkeleton - For starting this project •ᴗ•
++ [SpadeTheSkeleton](https://www.twitch.tv/spadetheskeleton) - Writing the guide •ᴗ•
 + Lootria - For guiding me in the right direction for the cd fix and for giving my first initial guide a try
-+ peppercornyeen - For being with me for the first few rounds of trying to make it work •ᴗ•
-+ TransCanadaLimited - For being the biggest inspiration for the rally scene and inspired me for making this work
-+ q_angell, OtterlyStoned & Corvoda - For being guide testers!•ᴗ•
++ peppercornyeen - For being with me when i first started this project •ᴗ•
++ [TransCanadaLimited](https://www.youtube.com/channel/UCea6hivHzI-uWDTZ-25ky3g) - For being the biggest inspiration in the rally scene, to make this game work again & inspired me for making this guide
++ q_angell, OtterlyStoned & Corvoda - For being my beta guide testers •ᴗ•
