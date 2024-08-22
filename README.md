@@ -274,13 +274,17 @@ To re-add CD music, there are 2 unofficial methods to this. For this section, I 
 
 6. Click on **Rip CD** This will start the process of ripping the songs. 
 
-7. When completed, go to this [link](https://community.pcgamingwiki.com/files/file/107-patched-_inmmdll/) to get _inmm. Go into the comments and you'll see **• inmm236.exe •** and click on that. This version of **_inmm** works best with Sega Rally 2
+7. When completed, go to this **[Post](https://community.pcgamingwiki.com/files/file/107-patched-_inmmdll/)** to get **_inmm**. Go into the comments and you'll see **• inmm236.exe •** and click on that. This version of **_inmm** works best with Sega Rally 2
 
-8. Open the **• inmm236.exe •**, uncheck ☐ both available options > **Next** > **Browse** > **Sega Rally 2** > **Install** 
+> [!NOTE]
+> [Archived Link Of The Post](http://web.archive.org/web/20240822232118/https://community.pcgamingwiki.com/files/file/107-patched-_inmmdll/)
+> [Archived Direct Download Link For inmm.dll](http://web.archive.org/web/20240822231219/https://community.pcgamingwiki.com/applications/core/interface/file/attachment.php?id=1758&key=a83a763a4f4304213b3f481f419d400a)
 
-9. Inside of the **Sega Rally 2** folder, open **• _inmmcnf.exe •** then go to the **_inmm.ini** tab. Select **Add** and go to the Music folder created in your Sega Rally 2, hold **Shift** on your keyboard and select **Track 13** first then **Track 1**. This should select all the songs in order. Press on **Open** then **Save**, make sure to save this to the **Sega Rally 2** folder and not in the **Music** folder.
+9. Open the **• inmm236.exe •**, uncheck ☐ both available options > **Next** > **Browse** > **Sega Rally 2** > **Install** 
 
-10. Next, go to the **Patch** tab, In the **Search box**, write in **Sega Rally** then press **Find**. Select **Sega Rally 2** > **Patch** > **Ok x2**
+10. Inside of the **Sega Rally 2** folder, open **• _inmmcnf.exe •** then go to the **_inmm.ini** tab. Select **Add** and go to the Music folder created in your Sega Rally 2, hold **Shift** on your keyboard and select **Track 13** first then **Track 1**. This should select all the songs in order. Press on **Open** then **Save**, make sure to save this to the **Sega Rally 2** folder and not in the **Music** folder.
+
+11. Next, go to the **Patch** tab, In the **Search box**, write in **Sega Rally** then press **Find**. Select **Sega Rarry 2** > **Patch** > **Ok x2**
 
 Close the software and you're now set! 
 
