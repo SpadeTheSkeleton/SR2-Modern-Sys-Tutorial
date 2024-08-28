@@ -45,15 +45,17 @@ If you're interested to help to make this game more accessible or interested to 
 
 
 
-If none of the steps in this guide does work for you, I put down below all the known methods of getting this game. The Alcino Major's Portable builds & a Spanish guide that goes very in-depth. 
+If none of the steps in this guide does work for you, I put down below all the known methods of getting this game. The new Portable build by OldNewPixel, Alcino Major's Portable builds & a Spanish guide that goes very in-depth. 
 
-+ Internet Archive (Old Build) [Link](https://archive.org/details/segarally2_portable)
++ OldNewPixel Portable Build - [Link](https://archive.org/details/sega-rally-2-25th-anniversary/)
 
-+ myabandonware (Latest Build) [Link](https://www.myabandonware.com/game/sega-rally-2-championship-a62#download)
++ Internet Archive (Old Build) - [Link](https://archive.org/details/segarally2_portable)
 
-+ Sega Rally 2 Speedrunning Discord Portable Build [Link](https://drive.google.com/drive/folders/1QpDH-hres794N_TCOcKEVm_4bN6E1mUo)
++ myabandonware (Latest Build) - [Link](https://www.myabandonware.com/game/sega-rally-2-championship-a62#download)
 
-+ In-dept Spanish Guide - OldNewPixel **(Translated in English)** [Link](https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp)
++ Sega Rally 2 Speedrunning Discord Portable Build - [Link](https://drive.google.com/drive/folders/1QpDH-hres794N_TCOcKEVm_4bN6E1mUo)
+
++ In-dept Spanish Guide - OldNewPixel **(Translated in English)** - [Link](https://oldnewpixel-blogspot-com.translate.goog/2024/07/sega-rally-2-pc-1999.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp)
 
 
 ### This Github purpose is to be shared around with players who love this game but always struggled to get this game running, please do feel free to **fork** this project and report issues when possible! The **more** help towards this, the better!
