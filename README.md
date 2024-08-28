@@ -45,9 +45,9 @@ If you're interested to help to make this game more accessible or interested to 
 
 
 
-If none of the steps in this guide does work for you, I put down below all the known methods of getting this game. The new Portable build by OldNewPixel, Alcino Major's Portable builds & a Spanish guide that goes very in-depth. 
+If none of the steps in this guide does work for you, I put down below all the known methods of getting this game. The new build by OldNewPixel, Alcino Major's Portable builds & a Spanish guide that goes very in-depth. 
 
-+ OldNewPixel Portable Build - [Link](https://archive.org/details/sega-rally-2-25th-anniversary/)
++ OldNewPixel Executable Build - [Link](https://archive.org/details/sega-rally-2-25th-anniversary/)
 
 + Internet Archive (Old Build) - [Link](https://archive.org/details/segarally2_portable)
 
